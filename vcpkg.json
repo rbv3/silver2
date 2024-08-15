@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "description": "silver dependencies for the project project",
+    "dependencies": [
+        "glm",
+        "opengl",
+        "nativefiledialog",
+        "sfml",
+        "imgui-sfml",
+        {
+            "name": "imgui",
+            "features": [
+                "docking-experimental"
+            ]
+        },
+        "tl-expected",
+        "gtest"
+    ]
+}
